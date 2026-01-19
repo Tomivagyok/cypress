@@ -1,6 +1,6 @@
 class BankingPage {
     visit() {
-        cy.visit('https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login');
+        cy.visit('/angularJs-protractor/BankingProject/#/login');
     }
 
     loginCustomer(name) {
